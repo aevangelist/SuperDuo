@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="it.jaschke.alexandria.About">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_title"
+            style="@style/AboutTitleStyle"
+            android:gravity="center" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+            android:text="@string/about_text"
+            style="@style/BookMiniTitleStyle"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+</FrameLayout>
